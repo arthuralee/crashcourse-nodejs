@@ -1,7 +1,7 @@
 // include the HTTP node module
 var http = require("http");
 
-// create HTTP server that responds with Hello World
+// create HTTP server that responds with the request url
 var server = http.createServer(function (req, res) {
 	res.end("You just sent a " + req.method + " request to " + req.url);
 });

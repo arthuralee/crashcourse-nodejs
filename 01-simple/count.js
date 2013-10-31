@@ -13,4 +13,5 @@ for (var i=1; i<=n; i++) {
 	str += i + " ";
 }
 
+// write to file
 fs.writeFileSync(path, str);
