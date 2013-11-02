@@ -9,14 +9,14 @@ var server = http.createServer(function(req,res) {
       res.end("404 Not Found\n");
       return;
     } else {
-      fs.readFile(filename, "binary", function(err, file) {
+      fs.readFile(filename, function(err, file) {
         if (err) {
           res.writeHead(500, {"Content-Type": "text/plain"});
           res.end(err + "\n");
           return;
         } else {
           res.writeHead(200);
-          res.end(file, "binary");
+          res.end(file);
         }
       })
     }
