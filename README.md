@@ -8,13 +8,13 @@ Link to presentation: https://slid.es/arthuralee/nodejs-crashcourse
 * Everyone should try to get node.js installed on their computer before the workshop
 
 ## Agenda
-* [LEC 16:30] What is node.js?
-* [ACT 16:40] Simple node.js script
-* [LEC 16:50] Basic networking
-* [LEC 16:55] What is a (web) server?
-* [ACT 17:05] Simple node.js server
-* [LEC 17:20] Understanding HTTP
-* [DIS 17:30] Routes, RESTful servers
+* What is node.js?
+* Simple node.js script
+* Basic networking
+* What is a (web) server?
+* Simple node.js server
+* Understanding HTTP
+* Routes, RESTful servers
 
 ## Goals
 * Gain a basic understanding of networking
