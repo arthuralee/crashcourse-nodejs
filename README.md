@@ -1,5 +1,7 @@
 # CrashCourse 2013 - Node.js Workshop
 
+Link to presentation: https://slid.es/arthuralee/nodejs-crashcourse
+
 ## Prerequisite Knowledge
 * Intro to javascript workshop
 * Knowledge of the terminal/Linux
