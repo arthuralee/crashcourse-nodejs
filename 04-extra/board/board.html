@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Board</title>
+</head>
+<body>
+
+  <ul id="msgs"></ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io.connect("http://localhost:8080");
+
+    var ul = document.getElementById("msgs");
+    socket.on("new", function(data) {
+      var li = document.createElement("li");
+      li.innerHTML = data.msg;
+      ul.appendChild(li);
+    });
+  </script>
+</body>
+</html>
